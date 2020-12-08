@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <title>triangle Form</title>
+    <meta name="description" content="Simple triangle form with html">
+    <meta name="author" content="Abdallah Mamdouh">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.min.css">
+    <!--
+        <link rel="stylesheet" href="media-querie.css" />
+        -->
+    <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="https://www.flaticon.com/svg/static/icons/svg/1004/1004751.svg">
+
+</head>
+
+<body onload="draw();">
+    <div class="parent">
+        <canvas id="myCanvas" width="900" height="900"></canvas>
+        <label class="userLabal" for="fname">Username</label>
+        <input placeholder="username" class="username" type="text" />
+        <input placeholder="password" class="userpass" type="password" />
+        <button class="btn"> FOROGET PASWWORD?</button>
+        <button><i class="fas fa-unlock-alt" id="lock"></i></button>
+    </div>
+    <script src="script.min.js"></script>
+</body>
+
+</html>
